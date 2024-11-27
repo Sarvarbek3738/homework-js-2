@@ -69,11 +69,23 @@
 //     console.log("Bizda unday ovqat yoq");
 // }
 
-// // 8-misol
-
-
-
-
+// 8-misol
+var pul = prompt("Bor pulingizni kiriting")
+if(pul<3000){
+    console.log("Uzir pulingiz yetmadi");
+}
+var ovqat = prompt("Qanday ovqat tanlaysiz")
+if(pul>=3000 && ovqat=="somsa"){
+    console.log("Siz somsa sotib oldingiz");
+}else if(pul>=15000 && ovqat=="palov"){
+    console.log("Siz palov sotib oldindiz");
+    
+}else if(pul>=12000 && ovqat=="kabob"){
+    console.log("Siz kabob sotib oldindiz");
+}else{
+   console.log( "Uzir bizda unday ovqat mavjud emas");
+   
+}
 
 // // 9-misol
 // var yosh = +prompt("Yoshingizni kiriting")
@@ -85,8 +97,8 @@
 // }
 
 // // 10-misol
-// const son1 = Number(prompt("Birinchi son"))
-// const son2 = Number(prompt("Ikkinchi son"))
+// var son1 = Number(prompt("Birinchi son"))
+// var son2 = Number(prompt("Ikkinchi son"))
 // if (son1 == "son2" ){
 //     console.log("Sonlar teng");
 // }else{
@@ -95,7 +107,7 @@
 
 
 // // 11-misol
-// const qavat=Number(prompt("Nechinchi qavatda turasiz"))
+// var qavat=Number(prompt("Nechinchi qavatda turasiz"))
 //    if(qavat>=4 && qavat<=10){
 //     console.log("Liftdan foydalaning chiqishingiz mumkin");
 //    }else if (qavat<4) {
@@ -114,7 +126,7 @@
 
 
 // // 1-misol
-// const son = Number(prompt("Son kiriting"))
+// var son = Number(prompt("Son kiriting"))
 // if (son >= 0 ) {
 //    if(son + 1);{
 //     console.log(son+1)
@@ -124,7 +136,7 @@
 //    }
 
 // // 2-misol
-// const son = Number(prompt("Son kiriting"))
+// var son = Number(prompt("Son kiriting"))
 // if (son > 0) {
 //     if (son + 1); {
 //         console.log(son + 1)
@@ -134,7 +146,7 @@
 // }
 
 // // 3-misol
-// const son = Number(prompt("Son kiriting"))
+// var son = Number(prompt("Son kiriting"))
 // if (son > 0) {
 //     if (son + 1); {
 //         console.log(son + 1);
@@ -147,9 +159,9 @@
 // }
 
 // // 4-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
-// const son3 = Number(prompt("Uchinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son3 = Number(prompt("Uchinchi sonni kiriting"))
 // if (son1 > 0) {
 //     console.log(son1)
 // }
@@ -161,9 +173,9 @@
 // }
 
 // // 5-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
-// const son3 = Number(prompt("Uchinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son3 = Number(prompt("Uchinchi sonni kiriting"))
 // if (son1 > 0) {
 //     console.log(son1)
 // }else(
@@ -181,8 +193,8 @@
 //     )
 
 // // 6-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
 // if (son1 > son2) {
 //     console.log("Birinchi son kotta", son1);
 // } else (
@@ -194,8 +206,8 @@
 
 
 // // 8-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
 // if (son1 > son2) {
 //     console.log(son1, son2);
 // } else (
@@ -203,8 +215,8 @@
 // )
 
 // // 9-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
 // if (son1 > son2) {
 //     console.log(son2, son1);
 // } else (
@@ -212,8 +224,8 @@
 // )
 
 // // 10-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
 // if (son1 != son2) {
 //     console.log(son1+son2);
 // } else (
@@ -221,8 +233,8 @@
 // )
 
 // // 11-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
 // if (son1 > son2) {
 //     console.log(son1);
 // } else if  (son1 < son2)  {
@@ -232,9 +244,9 @@
 // }
  
 // // 12-misol
-// const son1 = Number(prompt("Birinchi sonni kiriting"))
-// const son2 = Number(prompt("Ikkinchi sonni kiriting"))
-// const son3 = Number(prompt("Uchinchi sonni kiriting"))
+// var son1 = Number(prompt("Birinchi sonni kiriting"))
+// var son2 = Number(prompt("Ikkinchi sonni kiriting"))
+// var son3 = Number(prompt("Uchinchi sonni kiriting"))
 // if( son1<=son2 && son1<=son3){
 //     console.log(son1)
 // }else if (son2<=son1 && son2<=son3){
@@ -244,9 +256,9 @@
 // )
 
 // // 13-misol
-// const a = Number(prompt("Birinchi sonni kiriting"))
-// const b = Number(prompt("Ikkinchi sonni kiriting"))
-// const c = Number(prompt("Uchinchi sonni kiriting"))
+// var a = Number(prompt("Birinchi sonni kiriting"))
+// var b = Number(prompt("Ikkinchi sonni kiriting"))
+// var c = Number(prompt("Uchinchi sonni kiriting"))
 // if ((a > b && a < c) || (a > c && a < b)) {
 //     console.log(a)
 // } else if ((b > a && b < c) || (b > c && b < a)) {
